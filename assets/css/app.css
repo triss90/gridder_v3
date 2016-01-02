@@ -1187,29 +1187,38 @@ nav {
     color: #2C3E50;
     text-decoration: none;
     display: inline-block;
-    padding: 1rem 1.5rem;
+    padding: 1.05rem 0.5rem;
     margin: 0;
     transition: color 150ms ease-in-out; }
-    nav a:hover {
+    nav a:hover, nav a:active {
       color: #E74C3C;
       text-decoration: none; }
     @media (max-width: 450px) {
       nav a {
-        padding: 1rem 1rem; } }
+        padding: 1.05rem 0.5rem; } }
+    nav a.disabled {
+      color: #cbd7e3;
+      cursor: no-drop; }
   nav .logo {
     align-self: flex-start;
     margin-left: 2.5rem;
     margin-top: -0.8rem;
     padding: 0;
     color: #2C3E50; }
+    @media (max-width: 450px) {
+      nav .logo {
+        margin-left: 0.5rem; } }
     nav .logo svg {
       margin-top: 10px; }
     nav .logo span {
       color: #2C3E50;
       font-size: 2rem;
-      font-weight: bold;
-      vertical-align: 7px;
-      margin-left: -5px; }
+      font-weight: 100;
+      vertical-align: 15px;
+      margin-left: 0px; }
+      @media (max-width: 450px) {
+        nav .logo span {
+          display: none; } }
 
 /* Make clicks pass-through */
 #loading-bar,
