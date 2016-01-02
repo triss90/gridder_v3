@@ -6,7 +6,7 @@
     <meta name="description" content="A simple styleguide">
     <meta name="author" content="Tristan White">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="stylesheet" href="/assets/css/app.css" />
     <link rel="icon" type="image/ico" href="/img/favicon.ico">
   </head>
 
@@ -37,25 +37,13 @@
     <div class="fade" ng-hide="fakeIntro" ng-view></div>
 
     <!-- Angular -->
-    <script src="/js/angular.min.js"></script>
-    <script src="/js/angular-routes.min.js"></script>
-    <script src="/js/angular-animate.min.js"></script>
-    <script src="/js/angular-loading-bar.js"></script>
-    <script src="/js/app.js"></script>
-    <script>
-    function selectText( containerid ) {
-        var node = document.getElementById( containerid );
-        if ( document.selection ) {
-            var range = document.body.createTextRange();
-            range.moveToElementText( node  );
-            range.select();
-        } else if ( window.getSelection ) {
-            var range = document.createRange();
-            range.selectNodeContents( node );
-            window.getSelection().removeAllRanges();
-            window.getSelection().addRange( range );
-        }
-    }
-    </script>
+    <script src="/assets/js/angular.min.js"></script>
+    <script src="/assets/js/angular-routes.min.js"></script>
+    <script src="/assets/js/angular-animate.min.js"></script>
+    <script src="/assets/js/angular-loading-bar.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/jquery-2.1.4.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+
   </body>
 </html>

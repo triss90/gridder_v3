@@ -1,0 +1,31 @@
+header {
+    padding: 3rem 0 2rem 0;
+}
+
+.box, .box-first, .box-large, .box-nested, .box-row {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 2rem;
+    margin-bottom: 0;
+    background: $nightly;
+    border: 0.1625rem solid white;
+    border-radius: 0.325rem;
+    overflow: hidden;
+    text-align: center;
+    color: $powder;
+}
+
+.box-first {
+    background: $asphalt;
+    border-color: $powder;
+    padding: 1rem;
+}
+
+.box-nested {
+    padding: 1rem;
+}
+
+.box-container {
+    box-sizing: border-box;
+    padding: .5rem;
+}

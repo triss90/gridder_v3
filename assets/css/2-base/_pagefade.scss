@@ -1,0 +1,16 @@
+.fade {
+	opacity: 1;
+	transition:0.150s linear all;
+	margin-top: 3.1875rem;
+}
+.fade.ng-animate {
+	opacity: 0;
+}
+.fade.ng-leave {
+	transition:0.150s linear all;
+	opacity:1;
+}
+.fade.ng-leave.ng-leave-active {
+	transition:0.150s linear all;
+	opacity:0;
+}

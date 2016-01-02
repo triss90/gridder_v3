@@ -1,0 +1,191 @@
+section#colors {
+  min-height: 100vh;
+  .tiny-3 {
+    padding: 0 !important;
+  }
+  .item {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 150ms ease-in-out;
+    cursor: pointer;
+    position: relative;
+    p {
+      font-size: 1.5rem;
+      transition: all 150ms ease-in-out; 
+      @media(max-width: 48rem) {
+        transform: rotate(-90deg);
+      }
+    }
+    &.turqoise {
+      background: $turqoise;
+      color: darken($turqoise, 25%);
+      &:hover {
+        background: lighten($turqoise, 5%);
+      }
+    }
+    &.emerald {
+      background: $emerald;
+      color: darken($emerald, 25%);
+      &:hover {
+        background: lighten($emerald, 5%);
+      }
+    }
+    &.river {
+      background: $river;
+      color: darken($river, 25%);
+      &:hover {
+        background: lighten($river, 5%);
+      }
+    }
+    &.amethyst {
+      background: $amethyst;
+      color: darken($amethyst, 25%);
+      &:hover {
+        background: lighten($amethyst, 5%);
+      }
+    }
+    &.asphalt {
+      background: $asphalt;
+      color: darken($asphalt, 25%);
+      &:hover {
+        background: lighten($asphalt, 5%);
+      }
+    }
+    &.greenSea {
+      background: $greenSea;
+      color: darken($greenSea, 25%);
+      &:hover {
+        background: lighten($greenSea, 5%);
+      }
+    }
+    &.green {
+      background: $green;
+      color: darken($green, 25%);
+      &:hover {
+        background: lighten($green, 5%);
+      }
+    }
+    &.green-haze {
+      background: $green-haze;
+      color: darken($green-haze, 25%);
+      &:hover {
+        background: lighten($green-haze, 5%);
+      }
+    }
+    &.gossip {
+      background: $gossip;
+      color: darken($gossip, 25%);
+      &:hover {
+        background: lighten($gossip, 5%);
+      }
+    }
+    &.blue {
+      background: $blue;
+      color: darken($blue, 25%);
+      &:hover {
+        background: lighten($blue, 5%);
+      }
+    }
+    &.purple {
+      background: $purple;
+      color: darken($purple, 25%);
+      &:hover {
+        background: lighten($purple, 5%);
+      }
+    }
+    &.nightly {
+      background: $nightly;
+      color: darken($nightly, 25%);
+      &:hover {
+        background: lighten($nightly, 5%);
+      }
+    }
+    &.sun {
+      background: $sun;
+      color: darken($sun, 25%);
+      &:hover {
+        background: lighten($sun, 5%);
+      }
+    }
+    &.carrot {
+      background: $carrot;
+      color: darken($carrot, 25%);
+      &:hover {
+        background: lighten($carrot, 5%);
+      }
+    }
+    &.rose {
+      background: $rose;
+      color: darken($rose, 25%);
+      &:hover {
+        background: lighten($rose, 5%);
+      }
+    }
+    &.powder {
+      background: $powder;
+      color: darken($powder, 25%);
+      &:hover {
+        background: lighten($powder, 5%);
+      }
+    }
+    &.concrete {
+      background: $concrete;
+      color: darken($concrete, 25%);
+      &:hover {
+        background: lighten($concrete, 5%);
+      }
+    }
+    &.orange {
+      background: $orange;
+      color: darken($orange, 25%);
+      &:hover {
+        background: lighten($orange, 5%);
+      }
+    }
+    &.pumpkin {
+      background: $pumpkin;
+      color: darken($pumpkin, 25%);
+      &:hover {
+        background: lighten($pumpkin, 5%);
+      }
+    }
+    &.red {
+      background: $red;
+      color: darken($red, 25%);
+      &:hover {
+        background: lighten($red, 5%);
+      }
+    }
+    &.cabaret {
+      background: $cabaret;
+      color: darken($cabaret, 25%);
+      &:hover {
+        background: lighten($cabaret, 5%);
+      }
+    }
+    &.sunglo {
+      background: $sunglo;
+      color: darken($sunglo, 25%);
+      &:hover {
+        background: lighten($sunglo, 5%);
+      }
+    }
+    &.silver {
+      background: $silver;
+      color: darken($silver, 25%);
+      &:hover {
+        background: lighten($silver, 5%);
+      }
+    }
+    &.grey {
+      background: $grey;
+      color: darken($grey, 25%);
+      &:hover {
+        background: lighten($grey, 5%);
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+body {
+  font-size: 16px;
+  font-family: 'Inconsolata', Verdana;
+  a {
+	color: $rose;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+  }
+}
+
+code {
+    background: $powder;
+}
+
+pre {
+    font-family: monospace,serif;
+    overflow-x: auto;
+    padding: 1.25rem;
+    border: 0.0625rem solid $nightly;
+    border-left-width: 0.3125rem;
+    font-size: .875em;
+    background: $powder;
+    white-space: pre;
+    word-wrap: normal;
+}
