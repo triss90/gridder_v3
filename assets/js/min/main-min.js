@@ -1,1 +1,1 @@
-$("#unfold").on("click",function(){$(this).toggleClass("active")});
+function selectText(e){var t=document.getElementById(e);if(document.selection){var n=document.body.createTextRange();n.moveToElementText(t),n.select()}else if(window.getSelection){var n=document.createRange();n.selectNodeContents(t),window.getSelection().removeAllRanges(),window.getSelection().addRange(n)}}$("#unfold").on("click",function(){$(this).toggleClass("active")});
