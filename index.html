@@ -1,0 +1,61 @@
+<!doctype html>
+<html ng-app="MyApp">
+  <head>
+    <title>Document title</title>
+    <meta charset="utf-8">
+    <meta name="description" content="A simple styleguide">
+    <meta name="author" content="Tristan White">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/app.css" />
+    <link rel="icon" type="image/ico" href="/img/favicon.ico">
+  </head>
+
+  <body ng-controller="MainCtrl">
+
+    <nav>
+      <div class="logo">
+        <svg width="30px" height="53px" viewBox="0 0 189 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+            <g id="gridder-logo" sketch:type="MSLayerGroup" transform="translate(114.000000, 113.292893) rotate(45.000000) translate(-114.000000, -113.292893) translate(33.500000, 32.792893)">
+              <rect id="Rectangle-1" fill="#27AE60" sketch:type="MSShapeGroup" x="56" y="1" width="50" height="50"></rect>
+              <rect id="Rectangle-2" fill="#F39C12" sketch:type="MSShapeGroup" x="1" y="1" width="50" height="50"></rect>
+              <rect id="Rectangle-3" fill="#D2527F" sketch:type="MSShapeGroup" x="1" y="56" width="50" height="50"></rect>
+              <rect id="Rectangle-4" fill="#9B59B6" sketch:type="MSShapeGroup" x="1" y="111" width="50" height="50"></rect>
+              <rect id="Rectangle-5" fill="#E74C3C" sketch:type="MSShapeGroup" x="56" y="111" width="50" height="50"></rect>
+              <rect id="Rectangle-6" fill="#2980D9" sketch:type="MSShapeGroup" x="111" y="111" width="50" height="50"></rect>
+              <rect id="Rectangle-7" fill="#F1C40F" sketch:type="MSShapeGroup" x="111" y="56" width="50" height="50"></rect>
+            </g>
+        </svg>
+        <span>ridder</span>
+      </div>
+      <div class="links">
+        <a href="#/">Grid</a>
+        <a href="#colors">Colors</a>
+        <a href="#ux">UX Elements</a>
+      </div>
+    </nav>
+
+    <div class="fade" ng-hide="fakeIntro" ng-view></div>
+
+    <!-- Angular -->
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/angular-routes.min.js"></script>
+    <script src="/js/angular-animate.min.js"></script>
+    <script src="/js/angular-loading-bar.js"></script>
+    <script src="/js/app.js"></script>
+    <script>
+    function selectText( containerid ) {
+        var node = document.getElementById( containerid );
+        if ( document.selection ) {
+            var range = document.body.createTextRange();
+            range.moveToElementText( node  );
+            range.select();
+        } else if ( window.getSelection ) {
+            var range = document.createRange();
+            range.selectNodeContents( node );
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange( range );
+        }
+    }
+    </script>
+  </body>
+</html>
