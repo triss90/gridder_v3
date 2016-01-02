@@ -1566,14 +1566,14 @@ header {
   box-sizing: border-box;
   padding: .5rem; }
 
-span.unfold {
+a.unfold {
   font-size: 0.8rem;
   color: #E74C3C;
   position: relative;
   cursor: pointer; }
-  span.unfold:before {
+  a.unfold:before {
     content: "+"; }
-  span.unfold:hover {
-    color: #7b190f; }
-  span.unfold.active:before {
+  a.unfold:hover {
+    color: #a82315; }
+  a.unfold.active:before {
     content: "-"; }

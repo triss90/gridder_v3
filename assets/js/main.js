@@ -1,4 +1,4 @@
-// Select text on click
+/*
 function selectText( containerid ) {
     var node = document.getElementById( containerid );
     if ( document.selection ) {
@@ -12,3 +12,9 @@ function selectText( containerid ) {
         window.getSelection().addRange( range );
     }
 }
+*/
+
+// Expand css content
+$('#unfold').on('click', function(){
+   $(this).toggleClass('active');
+});
