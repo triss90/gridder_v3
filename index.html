@@ -1,20 +1,20 @@
 <!doctype html>
 <html ng-app="MyApp">
-  <head>
-    <title>gridder.io</title>
-    <meta charset="utf-8">
-    <meta name="description" content="A simple styleguide">
-    <meta name="author" content="Tristan White">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/app.css" />
-    <link rel="icon" type="image/ico" href="favicon.ico">
-  </head>
+<head>
+  <title>gridder.io</title>
+  <meta charset="utf-8">
+  <meta name="description" content="A simple flexbox base grid system">
+  <meta name="author" content="Tristan White">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/app.css" />
+  <link rel="icon" type="image/ico" href="favicon.ico">
+</head>
 
-  <body>
+<body>
 
-    <!-- grid.html -->
+<!-- grid.html -->
 
-    <div class="container">
+<div class="container">
 
 <header>
 	<div class="row center-tiny">
@@ -30,12 +30,15 @@
 </header>
 
 
-<div class="container">
 
-<!-- Responsive -->
-<h2>The Grid</h2>
-<p>Gridder is <a href=""></a> simple grid system based on <a href="http://caniuse.com/#search=flexbox" target="top">Flexbox.</a></p>
-<p>Gridder's fluid grid and breakpoints enable endless combinations of column sizes, offsets, allignments and viewport widths.</p>
+<div class="row">
+  <div class="tiny-12">
+    <!-- Responsive -->
+    <h2>The Grid</h2>
+    <p>Gridder is <a href=""></a> simple grid system based on <a href="http://caniuse.com/#search=flexbox" target="top">Flexbox.</a></p>
+    <p>Gridder's fluid grid and breakpoints enable endless combinations of column sizes, offsets, allignments and viewport widths.</p>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny-12 small-3 medium-2 large-4">
 		<div class="box-row"></div>
@@ -81,18 +84,21 @@
 &lt;/div></code></pre><br>
 
 
-
-<!-- Simple Syntax -->
-<h2>Syntax</h2>
-<p>First, make sure to wrap your columns in a <code>row</code> element. Then specify your columns and stick your content inside.</p>
-<p>Use the following classes to identify your coloumns.</p>
-<ul>
-	<li><code>tiny-*</code></li>
-	<li><code>small-*</code></li>
-	<li><code>medium-*</code></li>
-	<li><code>large-*</code></li>
-</ul>
-<p>* is a number between 1 and 12, where 1 is a single column.</p>
+<div class="row">
+  <div class="tiny-12">
+    <!-- Simple Syntax -->
+    <h2>Syntax</h2>
+    <p>First, make sure to wrap your columns in a <code>row</code> element. Then specify your columns and stick your content inside.</p>
+    <p>Use the following classes to identify your coloumns.</p>
+    <ul>
+    	<li><code>tiny-*</code></li>
+    	<li><code>small-*</code></li>
+    	<li><code>medium-*</code></li>
+    	<li><code>large-*</code></li>
+    </ul>
+    <p>* is a number between 1 and 12, where 1 is a single column.</p>
+  </div>
+</div>
 <pre data-src="index.html"><code class="language-html">&lt;div class="row">
     &lt;div class="tiny-12">
         &lt;div class="box">This spans 12/12 columns&lt;/div>
@@ -100,11 +106,14 @@
 &lt;/div></code></pre><br>
 
 
-
-<!-- Offsets -->
-<h2>Offsets</h2>
-<p>Offsetting columns is easy, simply and <code>*-offset-3</code> if you wish to offset your column 3 columns from the left.</p>
-<p>The * in this case referes to one of the breakpoints (tiny, small, medium and large).</p>
+<div class="row">
+  <div class="tiny-12">
+    <!-- Offsets -->
+    <h2>Offsets</h2>
+    <p>Offsetting columns is easy, simply and <code>*-offset-3</code> if you wish to offset your column 3 columns from the left.</p>
+    <p>The * in this case referes to one of the breakpoints (tiny, small, medium and large).</p>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny-offset-11 tiny-1">
 		<div class="box-row"></div>
@@ -142,10 +151,13 @@
 &lt;/div></code></pre><br>
 
 
-
-<!-- Auto Width -->
-<h2>Auto Grid</h2>
-<p>The flexbox grid is clever! You can add any number of columns to your rows without defining their width and let the grid figure it out.</p>
+<div class="row">
+  <div class="tiny-12">
+    <!-- Auto Width -->
+    <h2>Auto Grid</h2>
+    <p>The flexbox grid is clever! You can add any number of columns to your rows without defining their width and let the grid figure it out.</p>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny">
 		<div class="box-row"></div>
@@ -172,10 +184,13 @@
 &lt;/div></code></pre><br>
 
 
-
-<!-- Nested Grids -->
-<h2>Nesting Grids</h2>
-<p>Ofcourse you can nest grids aswell.</p>
+<div class="row">
+  <div class="tiny-12">
+    <!-- Nested Grids -->
+    <h2>Nesting Grids</h2>
+    <p>Ofcourse you can nest grids aswell.</p>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny-5">
 		<div class="box box-container">
@@ -234,15 +249,16 @@
 
 
 
+<div class="row">
+  <div class="tiny-12">
+    <!-- Alignment -->
+    <h2>Aligning Columns</h2>
+    <p>Add one or more of the following classes to align columns as you see fit.</p>
+    <!-- .start- -->
+    <h3><code>.start-</code></h3>
+  </div>
+</div>
 
-<!-- Alignment -->
-<h2>Aligning Columns</h2>
-<p>Add one or more of the following classes to align columns as you see fit.</p>
-
-
-
-<!-- .start- -->
-<h3><code>.start-</code></h3>
 <div class="row">
 	<div class="tiny-12">
 		<div class="box box-container">
@@ -263,9 +279,12 @@
 &lt;/div></code></pre>
 
 
-
-<!-- .center- -->
-<h3><code>.center-</code></h3>
+<div class="row">
+  <div class="tiny-12">
+    <!-- .center- -->
+    <h3><code>.center-</code></h3>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny-12">
 		<div class="box box-container">
@@ -286,9 +305,12 @@
 &lt;/div></code></pre>
 
 
-
-<!-- .end- -->
-<h3><code>.end-</code></h3>
+<div class="row">
+  <div class="tiny-12">
+    <!-- .end- -->
+    <h3><code>.end-</code></h3>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny-12">
 		<div class="box box-container">
@@ -309,9 +331,12 @@
 &lt;/div></code></pre>
 
 
-
-<!-- .top- -->
-<h3><code>.top-</code></h3>
+<div class="row">
+  <div class="tiny-12">
+    <!-- .top- -->
+    <h3><code>.top-</code></h3>
+  </div>
+</div>
 <div class="row top-tiny">
 	<div class="tiny-6">
 		<div class="box-large"></div>
@@ -329,9 +354,12 @@
 &lt;/div></code></pre>
 
 
-
-<!-- .middle- -->
-<h3><code>.middle-</code></h3>
+<div class="row">
+  <div class="tiny-12">
+    <!-- .middle- -->
+    <h3><code>.middle-</code></h3>
+  </div>
+</div>
 <div class="row middle-tiny">
 	<div class="tiny-6">
 		<div class="box-large"></div>
@@ -349,9 +377,12 @@
 &lt;/div></code></pre>
 
 
-
-<!-- .bottom- -->
-<h3><code>.bottom-</code></h3>
+<div class="row">
+  <div class="tiny-12">
+    <!-- .bottom- -->
+    <h3><code>.bottom-</code></h3>
+  </div>
+</div>
 <div class="row bottom-tiny">
 	<div class="tiny-6">
 		<div class="box-large"></div>
@@ -369,15 +400,16 @@
 &lt;/div></code></pre><br>
 
 
+<div class="row">
+  <div class="tiny-12">
+    <!-- Distribution -->
+    <h2>Distributing Columns</h2>
+    <p>Add one or more of the following classes to distribute the content of a row or column, according to the flexbox properties <code>justify-content: space-around;</code> or <code>justify-content: space-between;</code></p>
 
-<!-- Distribution -->
-<h2>Distributing Columns</h2>
-<p>Add one or more of the following classes to distribute the content of a row or column, according to the flexbox properties <code>justify-content: space-around;</code> or <code>justify-content: space-between;</code></p>
-
-
-
-<!-- .between- -->
-<h3><code>.between-</code></h3>
+    <!-- .between- -->
+    <h3><code>.between-</code></h3>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny-12">
 		<div class="box box-container">
@@ -415,9 +447,12 @@
 
 
 
-
-<!-- .around- -->
-<h3><code>.around-</code></h3>
+<div class="row">
+  <div class="tiny-12">
+    <!-- .around- -->
+    <h3><code>.around-</code></h3>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny-12">
 		<div class="box box-container">
@@ -454,14 +489,15 @@
 &lt;/div></code></pre><br>
 
 
+<div class="row">
+  <div class="tiny-12">
+    <!-- Reversing -->
+    <h2>Reversing Columns</h2>
 
-<!-- Reversing -->
-<h2>Reversing Columns</h2>
-
-
-
-<!-- .reverse- -->
-<h3><code>.reverse</code></h3>
+    <!-- .reverse- -->
+    <h3><code>.reverse</code></h3>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny-12">
 		<div class="box box-container">
@@ -501,15 +537,16 @@
 &lt;/div></code></pre><br>
 
 
+<div class="row">
+  <div class="tiny-12">
+    <!-- Reordering -->
+    <h2>Reordering Columns</h2>
+    <p>Add one or more of the following classes to reorder your columns according the the flexbox property <code>order</code></p>
 
-<!-- Reordering -->
-<h2>Reordering Columns</h2>
-<p>Add one or more of the following classes to reorder your columns according the the flexbox property <code>order</code></p>
-
-
-
-<!-- .first- -->
-<h3><code>.first-</code></h3>
+    <!-- .first- -->
+    <h3><code>.first-</code></h3>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny-12">
 		<div class="box box-container">
@@ -549,9 +586,12 @@
 &lt;/div></code></pre>
 
 
-
-<!-- .last- -->
-<h3><code>.last-</code></h3>
+<div class="row">
+  <div class="tiny-12">
+    <!-- .last- -->
+    <h3><code>.last-</code></h3>
+  </div>
+</div>
 <div class="row">
 	<div class="tiny-12">
 		<div class="box box-container">
@@ -590,13 +630,24 @@
     &lt;/div>
 &lt;/div></code></pre><br>
 
-
-
-
-
 </div>
 
-</div>
+<footer>
+  <div class="contaier">
+    <div class="row center-tiny">
+      <div class="tiny-12">
+        <p>
+          Made with
+          <svg enable-background="new 0 0 128 128" height="16px" id="Layer_1" version="1.1" viewBox="0 0 128 128" width="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M127,44.205c0-18.395-14.913-33.308-33.307-33.308c-12.979,0-24.199,7.441-29.692,18.276  c-5.497-10.835-16.714-18.274-29.694-18.274C15.912,10.898,1,25.81,1,44.205C1,79,56.879,117.104,64.001,117.104  C71.124,117.104,127,79.167,127,44.205z" fill="#E74C3C"/>
+          </svg>
+          by <a href="https://tristanwhite.info" target="_target">Tristan White</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="/assets/js/prism.js" data-default-language="markup"></script>
