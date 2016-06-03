@@ -6,6 +6,11 @@
  *    user zoom.
  */
 
+* {
+  box-sizing: border-box;
+}
+
+
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */

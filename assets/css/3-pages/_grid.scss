@@ -7,17 +7,16 @@ header {
     box-sizing: border-box;
     min-height: 2rem;
     margin-bottom: 0;
-    background: $nightly;
-    border: 0.1625rem solid white;
-    border-radius: 0.325rem;
+    background: $primary-color;
+    border: 0.1625rem solid $secondary-color;
     overflow: hidden;
     text-align: center;
-    color: $powder;
+    color: $secondary-color;
 }
 
 .box-first {
-    background: $asphalt;
-    border-color: $powder;
+    background: darken($primary-color, 10%);
+    border-color: $secondary-color;
     padding: 1rem;
 }
 
