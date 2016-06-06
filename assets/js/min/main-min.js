@@ -1,0 +1,1 @@
+jQuery(document).on("click","#download",function(){var a=jQuery.ajax({method:"get",url:"/index.php",data:{increase:"1"}});a.done(function(a){jQuery("#counter").html(a)}),a.fail(function(a){alert("ajax fail : url of ajax request is not reachable")})});

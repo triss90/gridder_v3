@@ -1,32 +1,53 @@
 header {
-    padding: 3rem 0 2rem 0;
+  padding: 3rem 0 10rem 0;
+  @media(max-width: 768px) {
+    padding: 2rem 0 1.5rem 0;
+  }
+  .banner {
+    padding: 6rem 0;
+    @media(max-width: 768px) {
+      padding: 0 0 2rem 0;
+    }
+    h1 {
+      font-size: 60px;
+      font-weight: 100;
+      display: inline-block;
+      color: rgba(0,0,0,0.2);
+      text-transform: uppercase;
+    }
+    svg {
+      rect {
+        fill: $primary-color;
+      }
+    }
+  }
 }
 
 .box, .box-first, .box-large, .box-nested, .box-row {
-    position: relative;
-    box-sizing: border-box;
-    min-height: 2rem;
-    margin-bottom: 0;
-    background: $primary-color;
-    border: 0.1625rem solid $secondary-color;
-    overflow: hidden;
-    text-align: center;
-    color: $secondary-color;
+  position: relative;
+  box-sizing: border-box;
+  min-height: 2rem;
+  margin-bottom: 0;
+  background: $primary-color;
+  border: 0.1625rem solid $secondary-color;
+  overflow: hidden;
+  text-align: center;
+  color: $secondary-color;
 }
 
 .box-first {
-    background: darken($primary-color, 10%);
-    border-color: $secondary-color;
-    padding: 1rem;
+  background: darken($primary-color, 10%);
+  border-color: $secondary-color;
+  padding: 1rem;
 }
 
 .box-nested {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .box-container {
-    box-sizing: border-box;
-    padding: .5rem;
+  box-sizing: border-box;
+  padding: .5rem;
 }
 
 footer {
