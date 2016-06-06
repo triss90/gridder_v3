@@ -32,7 +32,7 @@
 
 <header>
   <div class="row center-tiny banner">
-    <svg width="100px" height="100px" viewBox="0 0 189 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <svg width="80px" height="100px" viewBox="0 0 189 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
       <g id="gridder-logo" sketch:type="MSLayerGroup" transform="translate(114.000000, 113.292893) rotate(45.000000) translate(-114.000000, -113.292893) translate(33.500000, 32.792893)">
         <rect id="Rectangle-1" fill="#27AE60" sketch:type="MSShapeGroup" x="56" y="1" width="50" height="50"></rect>
         <rect id="Rectangle-2" fill="#F39C12" sketch:type="MSShapeGroup" x="1" y="1" width="50" height="50"></rect>
@@ -43,6 +43,7 @@
         <rect id="Rectangle-7" fill="#F1C40F" sketch:type="MSShapeGroup" x="111" y="56" width="50" height="50"></rect>
       </g>
     </svg>
+    <h1>Gridder</h1>
   </div>
 	<div class="row center-tiny">
 		<a class="btn primary" id="download" href="/gridder/gridder.css" download>

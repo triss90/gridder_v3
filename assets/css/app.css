@@ -1366,13 +1366,16 @@ header {
       header .banner {
         padding: 0 0 2rem 0; } }
     header .banner h1 {
-      font-size: 60px;
+      font-size: 30px;
       font-weight: 100;
-      display: inline-block;
+      display: block;
+      width: 100%;
       color: rgba(0, 0, 0, 0.2);
-      text-transform: uppercase; }
-    header .banner svg rect {
-      fill: #00b9e6; }
+      text-transform: lowercase; }
+    header .banner svg {
+      margin-left: -10px; }
+      header .banner svg rect {
+        fill: #00b9e6; }
 
 .box, .box-first, .box-large, .box-nested, .box-row {
   position: relative;
