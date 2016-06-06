@@ -141,7 +141,7 @@
 		},
 	"\/assets\/gridder\/gridder.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/gridder\/gridder.css",
 		"outputAbbreviatedPath": "No Output Path",
