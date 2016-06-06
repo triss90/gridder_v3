@@ -1310,8 +1310,8 @@ code {
 .btn {
   font-size: 1rem;
   background: #ffffff;
-  border: 0.0625em solid #f2f2f2;
-  color: #00b9e6;
+  border: 0.0625em solid #e6e6e6;
+  color: black;
   display: inline-block;
   font-weight: 300;
   text-decoration: none;
@@ -1320,10 +1320,10 @@ code {
   cursor: pointer;
   text-align: center; }
   .btn:hover {
-    background: #e6e6e6;
+    background: #f2f2f2;
     text-decoration: none; }
   .btn:active {
-    background: #cccccc; }
+    background: #e6e6e6; }
   .btn.primary {
     background: #00b9e6;
     border-color: #00a4cd;

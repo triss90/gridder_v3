@@ -2,8 +2,8 @@
 	// Normal Button
 	font-size: 1rem;
 	background: $secondary-color;
-	border: 0.0625em solid darken($secondary-color, 5%);
-	color: $primary-color;
+	border: 0.0625em solid darken($secondary-color, 10%);
+	color: black;
 	display: inline-block;
 	font-weight: 300;
 	text-decoration: none;
@@ -12,11 +12,11 @@
 	cursor: pointer;
 	text-align: center;
 	&:hover {
-		background: darken($secondary-color, 10%);
+		background: darken($secondary-color, 5%);
 		text-decoration: none;
 	}
 	&:active {
-		background: darken($secondary-color, 20%);
+		background: darken($secondary-color, 10%);
 	}
 
 	// Primary Butotn
