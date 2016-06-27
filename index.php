@@ -98,40 +98,40 @@
   </div>
 </div>
 <div class="row">
-	<div class="tiny-12 small-3 medium-2 large-4">
+	<div class="tiny-7 small-3 medium-2 large-4">
 		<div class="box-row"></div>
 	</div>
-	<div class="tiny-12 small-6 medium-8 large-7">
+	<div class="tiny-2 small-6 medium-8 large-7">
 		<div class="box-row"></div>
 	</div>
-	<div class="tiny-12 small-3 medium-2 large-1">
-		<div class="box-row"></div>
-	</div>
-</div>
-<div class="row">
-	<div class="tiny-12 small-3 medium-2 large-1">
-		<div class="box-row"></div>
-	</div>
-	<div class="tiny-12 small-9 medium-10 large-11">
+	<div class="tiny-3 small-3 medium-2 large-1">
 		<div class="box-row"></div>
 	</div>
 </div>
 <div class="row">
-	<div class="tiny-12 small-6 medium-8 large-9">
+	<div class="tiny-3 small-3 medium-2 large-1">
 		<div class="box-row"></div>
 	</div>
-	<div class="tiny-12 small-6 medium-4 large-3">
+	<div class="tiny-9 small-9 medium-10 large-11">
 		<div class="box-row"></div>
 	</div>
 </div>
 <div class="row">
-	<div class="tiny-12 small-3 medium-2 large-6">
+	<div class="tiny-6 small-6 medium-8 large-9">
 		<div class="box-row"></div>
 	</div>
-	<div class="tiny-12 small-6 medium-8 large-4">
+	<div class="tiny-6 small-6 medium-4 large-3">
 		<div class="box-row"></div>
 	</div>
-	<div class="tiny-12 small-3 medium-2 large-2">
+</div>
+<div class="row">
+	<div class="tiny-3 small-3 medium-2 large-6">
+		<div class="box-row"></div>
+	</div>
+	<div class="tiny-4 small-6 medium-8 large-4">
+		<div class="box-row"></div>
+	</div>
+	<div class="tiny-5 small-3 medium-2 large-2">
 		<div class="box-row"></div>
 	</div>
 </div>
