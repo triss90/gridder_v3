@@ -1333,28 +1333,6 @@ code {
     .btn.primary:active {
       background: #00a4cd; }
 
-#counter {
-  font-size: 1rem;
-  line-height: 1.3rem;
-  background: #f2f2f2;
-  border: 0.0625em solid #e6e6e6;
-  display: inline-block;
-  font-weight: 300;
-  text-decoration: none;
-  margin: 0.7em 1.5em 0.7em 0.5em;
-  padding: 0.7em 1em;
-  text-align: center;
-  position: relative; }
-  #counter:before {
-    content: "";
-    position: absolute;
-    left: -10px;
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 10px solid #f2f2f2; }
-
 header {
   padding: 3rem 0 10rem 0; }
   @media (max-width: 768px) {

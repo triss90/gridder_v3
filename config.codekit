@@ -517,9 +517,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "gridder.dev",
+	"displayValue": "gridder v3",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "pencil_orange"
+	"iconImageName": "\/assets\/img\/apple-touch-icon-180x180.png"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
