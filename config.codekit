@@ -18,15 +18,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/1-tools\/_gridder.scss": {
+	"\/assets\/css\/1-tools\/_gridder-1.4.1.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/assets\/css\/1-tools\/_gridder.scss",
-		"outputAbbreviatedPath": "\/gridder\/gridder.css",
+		"inputAbbreviatedPath": "\/assets\/css\/1-tools\/_gridder-1.4.1.scss",
+		"outputAbbreviatedPath": "\/gridder\/gridder-1.4.1.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
@@ -447,17 +447,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/js\/main.js",
-		"outputAbbreviatedPath": "\/assets\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/assets\/js\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -491,11 +480,11 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/gridder\/gridder.css": {
+	"\/gridder\/gridder-1.4.1.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/gridder\/gridder.css",
+		"inputAbbreviatedPath": "\/gridder\/gridder-1.4.1.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
