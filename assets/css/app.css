@@ -5,7 +5,6 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import "https://fonts.googleapis.com/css?family=PT+Sans";
 * {
   box-sizing: border-box; }
 
@@ -480,7 +479,7 @@ pre[class*="language-"] {
   cursor: help; }
 
 html, body  {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "proxima-nova-soft";
   font-size: 16px; }
 
 body {
