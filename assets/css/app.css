@@ -522,6 +522,13 @@ code {
   background: #f5f2f0;
   padding: 3px 6px; }
 
+/*
+Name: Gridder.io
+Description: Grid Framework
+Author URI: https://gridder.io/
+Version: 1.4.1
+Author: Tristan White
+*/
 .container {
   margin-right: auto;
   margin-left: auto; }
