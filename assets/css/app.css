@@ -5,6 +5,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
+@import "https://fonts.googleapis.com/css?family=Raleway";
 * {
   box-sizing: border-box; }
 
@@ -479,7 +480,7 @@ pre[class*="language-"] {
   cursor: help; }
 
 html, body  {
-  font-family: "proxima-nova-soft";
+  font-family: 'Raleway', sans-serif;
   font-size: 16px; }
 
 body {
